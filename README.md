@@ -26,6 +26,7 @@ Flags for parameters (type):
 - image path: `--image` (str)
 - padding: `--padding` (int)
 - stride: `--stride` (int)
-- kernnel matrix: `--matrix` (str) in format " <first row>; <second row>; <third row>"
+- kernel matrix: `--matrix` (str) in format `"<first row>; <second row>; <third row>"`
+
 For example:
 `python conv_wo_lib.py --image "conv_img2.jpg" --padding 3 --stride 1 --kernel "0 1 0; 1 1 1; 0 1 0"`
